@@ -42,8 +42,8 @@
   border-radius: 5px;
   border: 0;
   color: #fff;
-  font-size: 20px;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
   padding: 18px 25px;
 }
 
@@ -51,7 +51,7 @@
 .main {
   align-items: center;
   display: flex;
-  margin: 50px 16vw;
+  margin: 100px 16vw;
 }
 
 .main-section {
@@ -76,3 +76,65 @@
 }
 
 /* || plans-section-styles || */
+.plans-section {
+  display: flex;
+  gap: 8%;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.plans-section > div {
+  text-align: center;
+}
+
+.plans-section > div > h3 {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 10px 0;
+}
+
+.plans-section > div > p {
+  color: #444343;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* banner-section-styles */
+.banner-section {
+  background-blend-mode: soft-light;
+  background-image: url(images/watch.png), url(images/gradient3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  margin: 150px 20%;
+  padding-top: 6px;
+  width: 1140px;
+}
+
+.banner-title {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 33px 0 10px 66px;
+}
+
+.btn-secondary {
+  background-color: white;
+  border-radius: 5px;
+  border: 0;
+  color: #f15b22;
+  font-size: 22px;
+  font-weight: 600;
+  height: 64px;
+  margin-left: 66px;
+  padding: 18px 25px;
+  width: 160px;
+}
