@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Open+Sans&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* || header styles || */
-
+/* || header-styles || */
 .header {
-  display: flex;
   background-image: url(images/banner/banner1.png);
   background-repeat: no-repeat;
   background-size: contain;
+  display: flex;
   height: 1000px;
   width: 100%;
 }
@@ -21,8 +20,8 @@
 .header-info {
   margin-left: 50%;
   margin-right: 200px;
-  text-align: end;
   margin-top: 13%;
+  text-align: end;
   width: 100%;
 }
 
@@ -32,20 +31,48 @@
 }
 
 .header-description {
-  margin: 20px 0;
+  color: #444343;
   font-size: 20px;
   line-height: 25px;
-  color: #444343;
+  margin: 20px 0;
 }
 
 .btn-primary {
-  color: #fff;
   background-color: #f15b22;
-  font-size: 20px;
-  padding: 18px 25px;
   border-radius: 5px;
   border: 0;
+  color: #fff;
   font-size: 20px;
+  font-size: 20px;
+  padding: 18px 25px;
 }
 
-/* main styles */
+/* main-styles */
+.main {
+  align-items: center;
+  display: flex;
+  margin: 50px 16vw;
+}
+
+.main-section {
+  margin-left: 111px;
+}
+
+.main-title {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.main-description {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.point-out > p {
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+/* || plans-section-styles || */
