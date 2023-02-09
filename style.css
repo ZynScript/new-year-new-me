@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=GFS+Didot&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans+Condensed&family=Lexend&family=Open+Sans&family=Roboto&family=Work+Sans&display=swap");
 
 * {
   box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -26,6 +25,7 @@
 }
 
 .header-title {
+  font-family: "Open Sans", sans-serif;
   font-size: 65px;
   font-weight: 800;
 }
@@ -33,6 +33,7 @@
 .header-description {
   color: #444343;
   font-size: 20px;
+  font-family: "Lexend", sans-serif;
   line-height: 25px;
   margin: 20px 0;
 }
@@ -42,6 +43,7 @@
   border-radius: 5px;
   border: 0;
   color: #fff;
+  font-family: "Lexend", sans-serif;
   font-size: 22px;
   font-weight: 600;
   padding: 18px 25px;
@@ -49,6 +51,7 @@
 
 /* main-styles */
 .main {
+  font-family: "Lexend", sans-serif;
   align-items: center;
   display: flex;
   margin: 100px 16vw;
@@ -61,6 +64,7 @@
 .main-title {
   font-size: 44px;
   font-weight: 800;
+  font-family: "Open Sans", sans-serif;
   margin-bottom: 18px;
 }
 
@@ -84,6 +88,7 @@
 }
 
 .section-title {
+  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   font-weight: 800;
   margin-top: 150px;
@@ -95,6 +100,7 @@
 }
 
 .plans-section > div > h3 {
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 800;
   padding: 10px 0;
@@ -102,7 +108,8 @@
 
 .plans-section > div > p {
   color: #444343;
-  font-size: 25px;
+  font-size: 22px;
+  font-family: "Lexend", sans-serif;
   font-weight: bold;
 }
 
@@ -120,7 +127,7 @@
 
 .banner-title {
   color: white;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lexend", sans-serif;
   font-size: 40px;
   font-weight: 800;
   margin: 33px 0 10px 66px;
@@ -130,6 +137,7 @@
   background-color: white;
   border-radius: 5px;
   border: 0;
+  font-family: "Open Sans", sans-serif;
   color: #f15b22;
   font-size: 22px;
   font-weight: 600;
@@ -139,21 +147,63 @@
   width: 160px;
 }
 
-/* footer-styles */
-.footer {
+/* || dev-section-styles || */
+.dev-title {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: -33px;
+  font-size: 44px;
+  font-weight: 900;
+}
+
+.dev-description {
+  color: #444343;
+  font-family: "Lexend", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dev-section {
+  align-items: center;
   display: flex;
-  height: 515px;
-  width: 100%;
-  margin-top: 100px;
-  color: white;
+  margin: 88px 10%;
+  text-align: left;
+}
+
+.dev-section > img {
+  height: 555px;
+}
+
+.dev-info > h3 {
+  font-family: "Lexend", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.dev-info > p {
+  color: #444343;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+/* || footer-styles || */
+.footer {
   background-color: #151414;
+  color: white;
+  display: flex;
+  font-family: "Work Sans", sans-serif;
+  height: 515px;
+  margin-top: 100px;
+  width: 100%;
 }
 
 .footer-section {
+  font-size: 20px;
   margin-left: 15vw;
   padding-top: 100px;
   width: 599px;
-  font-size: 20px;
 }
 
 .footer-title {
@@ -167,11 +217,13 @@
 }
 
 .footer-section > img {
+  margin-top: 10px;
   padding-right: 10px;
 }
 
 .subs-section {
   color: white;
+  font-family: "Lexend", sans-serif;
   margin-top: 100px;
   margin-left: 300px;
 }
@@ -182,15 +234,16 @@
 }
 
 .subs-input {
-  height: 64px;
-  width: 325px;
-  color: white;
-  padding-left: 15px;
-  font-size: 20px;
   background-color: black;
-  border: 1px solid white;
   border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+  height: 64px;
   margin-bottom: 20px;
+  padding-left: 15px;
+  width: 325px;
 }
 
 .btn-subs {
